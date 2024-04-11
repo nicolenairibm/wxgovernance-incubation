@@ -7,7 +7,7 @@
 
 
 <div align="center">
-  <img width="250" alt="image" src="images/Agenda.png">
+  <img width="650" alt="image" src="images/Agenda.png">
 </div>
 
 
