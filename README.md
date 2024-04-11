@@ -9,7 +9,6 @@ This repo contains material and lab instructions for a Workshop teaching the fou
 
 You will complete various tasks in the governed AI lifecycle of an **Insurance Claims use case** where you will create an AI system to summarize insurance claims, focusing on the vehicles involved and the damage that occurs. You will perform tasks required by various personae across the AI development and governance teams.
 
-Link to Portuguese repository for x gov: https://github.ibm.com/watsonx-latin-america/watsonx-latin-america-watsonx.governance-bootcamp-PT-BR
 
 <div align="center">
   <img width="1000" alt="image" src="images/workshop-overview.png">
