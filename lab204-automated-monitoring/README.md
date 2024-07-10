@@ -1,4 +1,4 @@
-# Lab 3: Automated eval notebook
+# Lab 204: Automated eval notebook
 
 ## Summary
 In this lab, we will take you through a Jupyter notebook that shows how to automate the use of watsonx.governance with its Python SDK. 

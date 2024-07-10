@@ -1,4 +1,4 @@
-# Lab 0: Project Setup
+# Lab 201: Project Setup
 ---
 ## Summary
 In this lab, we will be walking through how to create your own project to complete the following labs in the bootcamp. It is important we create a project in the right environment, or else it can cause issues down the line if done incorrectly!

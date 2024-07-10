@@ -1,4 +1,4 @@
-# Lab 1: Assisted Prompt Evaluation
+# Lab 202: Assisted Prompt Evaluation
 ---
 <div align="center">
     <img width="275" alt="image" src="images/start.png">
