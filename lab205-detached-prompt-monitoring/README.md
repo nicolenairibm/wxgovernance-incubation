@@ -20,7 +20,7 @@ Once you have initiated the runtime and see the notebook loaded, you can step th
 
 # Seeing your evaluation within the UI
 
-The detached prompt will be registered as an asset in the project whose project ID you specified. Therefore, when you navigate to your watsonx.ai project, you will be able to view the prompt, as well as the results of your model evaluation.
+After running the notebook, the detached prompt will be registered as an asset in the project whose project ID you specified. Therefore, when you navigate to your watsonx.ai project, you will be able to view the prompt, as well as the results of your model evaluation.
 
 How your detached prompt should appear within the project:
 
@@ -47,3 +47,17 @@ To do this, click on the three dots next to your detached prompt asset within th
 ![Alt text](images/image8.png)
 
 Once you are done, you will be able to view all the details of the prompt/model within the AI Use Case, as well as manage its lifecycle there.
+
+# Evaluating your detached prompt & managing its lifecycle
+
+Similar to regular prompts, you can promote your detached prompt to a space and deploy it (see lab 203).
+
+![Alt text](images/image10.png)
+
+Once it is deployed, activate monitoring, and then you can evaluate your deployed prompt. Sample feedback and payload data are provided at data/summarisation_deploy_feedback.csv and data/summarization_deploy_payload.csv, which you can use to run the evaluations, using the same steps as described in lab 203.
+
+![Alt text](images/image9.png)
+
+As shown in the image below, you can managed the detached prompt's lifecycle within the use case, track its metrics there etc. Therefore, watsonx.governance's AI Use Case is able to manage and govern 3rd party models and watsonx.ai models within the same framework and tool. This is incredibly useful especially if you are including models hosted on different platforms within the same AI use case.
+
+![Alt text](images/image11.png)
