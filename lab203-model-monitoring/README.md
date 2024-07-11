@@ -86,7 +86,7 @@ Advance the status of the **Use Case** to **Ready for AI asset validation**.
 Now go to the **Deployment Space** and see that the prompt hasn’t actually been deployed. Go to the **Deployment** section, then select the right space, click on **Assets** and then deploy the prompt. 
 
 ![](images/deploy-side-bar.png)
-![](images/deploy.png)
+![](images/image26.png)
 
 Then go back to the use case and see the prompt as **Pending Evaluation**.
 
@@ -116,7 +116,6 @@ Go to the AI FactSheet of the prompt and export a report in PDF format. Familiar
 Now create another deployment space as stage **Production** and give it a unique name with **- Production** attached at the end. Then promote the prompt to it.
 
 See how the use case is updated to show the prompt under **Operate**. But it’s not actually deployed yet, so let’s do that, too.
-![](images/image15.png)
 
 It’s pending evaluation, so let’s run yet another evaluation. See how when you activate the monitoring, it now shows **Drift v2** as an additional option. It also describes how payload data must have column that match the input variables of the prompt.
 ![](images/image16.png)
