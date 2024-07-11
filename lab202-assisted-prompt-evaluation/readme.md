@@ -105,7 +105,7 @@ After that, you will see a screen to review the information you have entered. On
 
 ![Review and eval](images/picture24.png)
 
-Once the evaluation has finished, you should see a screen pop up displaying the results. As you can see here, our evaluation was not very successful, triggering 13 alerts and failing its test. This is to be expected! The goal of this lab is to build on our first prompt that we have created here, and work to achieve better results so that we can deploy our prompt and eventually bring it to production.
+Once the evaluation has finished, you should see a screen pop up displaying the results. As you can see here, our evaluation was not very successful, triggering 12 alerts and failing its test. This is to be expected! The goal of this lab is to build on our first prompt that we have created here, and work to achieve better results so that we can deploy our prompt and eventually bring it to production.
 
 ![Results](images/picture25.png)
 
@@ -145,29 +145,29 @@ With the AI Factsheet open, take time to read through the [generative AI quality
 
 The upside-down triangles represent the measured value for each metrics.  Black triangles good, Red triangles bad.  Look closely and you'll see that your evaluation has only three metrics that pass.
 
-<img width="450" alt="image" src="images/input-data-hap.png">
-
-<img width="450" alt="image" src="images/output-data-hap.png">
-
 <img width="450" alt="image" src="images/input-data-pii.png">
 
-Every metric measuring the quality of a summarization output is in the red.  Hopefully you'll rise to the challenge, choose one of these metrics to improve and build a better prompt for this insurance summarization use case.
+<img width="450" alt="image" src="images/output-data-pii.png">
+
+<img width="450" alt="image" src="images/readability.png">
+
+Most metrics measuring the quality of a summarization output is in the red.  Hopefully you'll rise to the challenge, choose one of these metrics to improve and build a better prompt for this insurance summarization use case.
 
 For now, though, I'll show you how to modify the thresholds for these metric so that your prompt can have looser requirements to pass testing. In a real world use case, this should only be done if absolutely necessary and makes sense for your use case! Head back over to the evaluation screen, where you will see a blue button to the right of "Generative AI Quality - Text Summarization" where we can adjust our thresholds.
 
-![Alter thresholds](images/picture38.png)
+![Alter thresholds](images/picture25.png)
 
 Go ahead and click on that button, and you will be greeted with the following screen:
 
 ![Thresholds screen](images/picture39.png)
 
-Here we are going to adjust the readability metric. This metric is higher if your model's generated responses to your prompt are easy to interpret, and lower if they are confusing to read. Scroll down the page and click the edit button to modify it.
+Here we are going to adjust the text quality - precision metric. This metric is higher if there are fewer words within the generated response that do not exist within the reference response. Scroll down the page and click the edit button to modify it.
 
-![Edit readability](images/picture40.png)
+![Edit text quality precision](images/picture40.png)
 
-Lastly, go ahead and change the readability slightly, say to 55, which puts the requirement into the "Fairly difficult to read" range. After, that, you can go ahead and click save to finalize your changes. Just a reminder here that these metrics should not be altered too much in a real world use case!
+Lastly, go ahead and change the text quality precision to 0.6, which puts the requirement into the acceptable range. After, that, you can go ahead and click save to finalize your changes. Just a reminder here that these metrics should not be altered too much in a real world use case!
 
-![Submit readability](images/picture41.png)
+![Submit threshold change](images/picture41.png)
 
 ---
 #### **Note: Please refer to [this powerpoint](resources/LLM_Metrics.PPTX) for more information on each metric!
