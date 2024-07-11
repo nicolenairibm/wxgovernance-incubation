@@ -56,6 +56,10 @@ Similar to regular prompts, you can promote your detached prompt to a space and 
 
 Once it is deployed, activate monitoring, and then you can evaluate your deployed prompt. Sample feedback and payload data are provided at data/summarisation_deploy_feedback.csv and data/summarization_deploy_payload.csv, which you can use to run the evaluations, using the same steps as described in lab 203.
 
+![Alt text](images/image12.png)
+
+![Alt text](images/image13.png)
+
 ![Alt text](images/image9.png)
 
 As shown in the image below, you can managed the detached prompt's lifecycle within the use case, track its metrics there etc. Therefore, watsonx.governance's AI Use Case is able to manage and govern 3rd party models and watsonx.ai models within the same framework and tool. This is incredibly useful especially if you are including models hosted on different platforms within the same AI use case.
