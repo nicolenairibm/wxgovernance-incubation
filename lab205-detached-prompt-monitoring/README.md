@@ -48,9 +48,9 @@ To do this, click on the three dots next to your detached prompt asset within th
 
 Once you are done, you will be able to view all the details of the prompt/model within the AI Use Case, as well as manage its lifecycle there.
 
-# Evaluating your detached prompt & managing its lifecycle
+# Evaluating your detached deployment & managing its lifecycle
 
-Similar to regular prompts, you can promote your detached prompt to a space and deploy it (see lab 203).
+Similar to regular prompts (see lab 203), you can promote your detached prompt to a space and "deploy" it. If you want to monitor drift, you can use a production type deployment.
 
 ![Alt text](images/image10.png)
 
@@ -62,6 +62,6 @@ Once it is deployed, activate monitoring, and then you can evaluate your deploye
 
 ![Alt text](images/image9.png)
 
-As shown in the image below, you can managed the detached prompt's lifecycle within the use case, track its metrics there etc. Therefore, watsonx.governance's AI Use Case is able to manage and govern 3rd party models and watsonx.ai models within the same framework and tool. This is incredibly useful especially if you are including models hosted on different platforms within the same AI use case.
+As shown in the image below, you can managed the detached prompt's lifecycle within the use case, track its metrics, versioning there etc. Therefore, watsonx.governance's AI Use Case is able to manage and govern 3rd party models and watsonx.ai models within the same framework and tool. This is incredibly useful especially if you are including models hosted on different platforms within the same AI use case.
 
 ![Alt text](images/image11.png)
