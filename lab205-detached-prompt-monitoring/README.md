@@ -1,4 +1,4 @@
-# Lab 205: Detached evaluation notebook
+# Lab 205: Detached prompt monitoring
 
 ## Summary
 In this lab, we will take you through a Jupyter notebook that shows how to evaluate third-party prompts and models. In particular, we will be evaluating a model hosted on huggingface.
