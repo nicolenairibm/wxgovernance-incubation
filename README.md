@@ -7,7 +7,13 @@
 
 <br> </br>
 <div align="center">
-  <img width="650" alt="image" src="images/Agenda.png">
+  <img width="650" alt="image" src="images/Agenda_1.png">
+</div>
+
+<br> </br>
+<br> </br>
+<div align="center">
+  <img width="650" alt="image" src="images/Agenda_2.png">
 </div>
 
 <br> </br>
