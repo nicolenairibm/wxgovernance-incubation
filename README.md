@@ -1,4 +1,4 @@
-# watsonx.governance workshop: insurance claims use case
+# IBM AI Governance Workshop
 
 <div align="center">
   <img width="250" alt="image" src="images/AI%20developer.png">
