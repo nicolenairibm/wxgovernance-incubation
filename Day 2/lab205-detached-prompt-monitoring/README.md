@@ -20,7 +20,7 @@ Once you have initiated the runtime and see the notebook loaded, you can step th
 
 # Seeing your detached prompt within the UI
 
-After running the notebook, the detached prompt will be registered as an asset in the project whose project ID you specified. Therefore, when you navigate to your watsonx.ai project, you will be able to view the prompt, as well as the results of your model evaluation.
+After running the notebook, the detached prompt will be registered as an asset in the project whose project ID you specified. Therefore, when you navigate to your watsonx.ai project, you will be able to view the prompt.
 
 How your detached prompt should appear within the project:
 
