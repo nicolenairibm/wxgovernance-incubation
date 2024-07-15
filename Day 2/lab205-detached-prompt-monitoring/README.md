@@ -60,7 +60,7 @@ Once you are done, you will be able to view all the details of the prompt/model 
 
 # Evaluating your detached deployment & managing its lifecycle
 
-Similar to regular prompts (see lab 203), you can promote your detached prompt to a space and "deploy" it. Note that drift is not currently supported for detached deployments.
+Similar to regular prompts (see lab 203), you can promote your detached prompt to first development then production spaces and "deploy" it. Note that drift is not currently supported for detached deployments.
 
 ![Alt text](images/image10.png)
 
