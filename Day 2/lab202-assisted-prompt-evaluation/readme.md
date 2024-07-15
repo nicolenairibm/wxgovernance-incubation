@@ -206,7 +206,7 @@ Great work -- now we should see our new template on the home page as well as our
 ---
 Now that you've seen how to quickly create copies of your original prompt template, you can assign new templates to a model of your choosing! Repeat the steps you took to create a prompt template evaluated with granite, but this time choose a new model (Making sure to click into the **original template** we created, not the granite template). It can be whatever you'd like! Make sure to **include the model name** in the naming of your new prompt template, as we did with granite. This will help you quickly differentiate between prompt templates later. Here is my Assets tab once I've added one more model:
 
-![Both prompt temps](images/picture37.png)
+![Both prompt temps](images/pictur43.png)
 
 ### 6. Experiment With Settings<a name="experiment-with-settings"></a>
 ---
