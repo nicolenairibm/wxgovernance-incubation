@@ -76,6 +76,8 @@ Create a new **Deployment Space** to promote your prompt into. Give the **Deploy
 
 Select **Development** as the stage, select the default Storage service (itz-cos...) and select the listed machine learning service (itzml-...)
 
+**If you are in a class, the deployment space may have already been created for you**
+
 ![](images/create-deployment-space.png)
 
 After promoting it, see how it appears in the use case in a new place.
@@ -114,6 +116,8 @@ Go to the AI FactSheet of the prompt and export a report in PDF format. Familiar
 
 
 Now create another deployment space as stage **Production** and give it a unique name with **- Production** attached at the end. Then promote the prompt to it.
+
+**If you are in a class, the production deployment space may have already been created for you**
 
 See how the use case is updated to show the prompt under **Operate**. But it’s not actually deployed yet, so let’s do that, too.
 
