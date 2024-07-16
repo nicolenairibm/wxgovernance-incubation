@@ -72,11 +72,11 @@ Start by promoting the second prompt to a **Deployment Space**. Go to from the *
 
 <img width="350" alt="image" src="images/image8.png">
 
-Create a new **Deployment Space** to promote your prompt into. Give the **Deployment Space** a unique name with **- Development** attached at the end so we can distinguish from other **Deployment Spaces** we'll be creating.
+Create a new **Deployment Space** to promote your prompt into. **If you are in a class, the deployment space may have already been created for you** Give the **Deployment Space** a unique name with **- Development** attached at the end so we can distinguish from other **Deployment Spaces** we'll be creating.
 
 Select **Development** as the stage, select the default Storage service (itz-cos...) and select the listed machine learning service (itzml-...)
 
-**If you are in a class, the deployment space may have already been created for you**
+
 
 ![](images/create-deployment-space.png)
 
@@ -115,9 +115,9 @@ Change the use case status to **Validation complete**.
 Go to the AI FactSheet of the prompt and export a report in PDF format. Familiarize yourself with the content of the report.
 
 
-Now create another deployment space as stage **Production** and give it a unique name with **- Production** attached at the end. Then promote the prompt to it.
+Now create another deployment space as stage **Production** and give it a unique name with **- Production** attached at the end. **If you are in a class, the production deployment space may have already been created for you** Then promote the prompt to it.
 
-**If you are in a class, the production deployment space may have already been created for you**
+
 
 See how the use case is updated to show the prompt under **Operate**. But it’s not actually deployed yet, so let’s do that, too.
 
