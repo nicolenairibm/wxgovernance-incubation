@@ -26,8 +26,6 @@
 
 <br> </br>
 
-<br> </br>
-
 
 
 This repo contains material and lab instructions for a Workshop teaching the foundations of watsonx.governance. You will complete multiple labs during this workshop where each lab builds off the prior.  The high-level overview below shows what you will accomplish during this workshop.
