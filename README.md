@@ -18,6 +18,14 @@
 
 <br> </br>
 
+<br> </br>
+<br> </br>
+<div align="center">
+  <p>TechZone Reservation Link </p>
+  <a>https://techzone.ibm.com/my/reservations/create/64b8490a564e190017b8f4eb</a>
+</div>
+
+
 
 This repo contains material and lab instructions for a Workshop teaching the foundations of watsonx.governance. You will complete multiple labs during this workshop where each lab builds off the prior.  The high-level overview below shows what you will accomplish during this workshop.
 
