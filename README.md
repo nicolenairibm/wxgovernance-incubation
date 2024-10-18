@@ -21,9 +21,12 @@
 <br> </br>
 <br> </br>
 <div align="center">
-  <p>TechZone Reservation Link </p>
-  <a>https://techzone.ibm.com/my/reservations/create/64b8490a564e190017b8f4eb</a>
+  <a href=https://techzone.ibm.com/my/reservations/create/64b8490a564e190017b8f4eb> Environment Reservation Link </a>
 </div>
+
+<br> </br>
+
+<br> </br>
 
 
 
